@@ -1,0 +1,22 @@
+#footer2 {
+    background-color: black;
+   
+    
+}
+
+#fid{
+    display: flex;
+    justify-content: center;
+    
+    color:white;
+}
+#footer2 , link{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.con_bg{
+    padding-top: 600px;
+}
