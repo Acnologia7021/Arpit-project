@@ -6,19 +6,18 @@
     box-sizing: border-box;
 }
 body, html {
-  height: 100%;
-
-  /* The image used */
-  background-image: url("cool-background.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+ 
+    /* The image used */
+    background-image: url("cool-background.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .background{
     width: 430px;
     height: 520px;
@@ -26,8 +25,25 @@ body, html {
     transform: translate(-50%,-50%);
     left: 50%;
     top: 50%;
-0px;
+}
 
+.shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    left: -80px;
+    top: -80px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    right: -30px;
+    bottom: -80px;
+}
 form{
     height: 520px;
     width: 400px;
