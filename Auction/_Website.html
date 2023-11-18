@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparent Box</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('background.jpg'); /* Replace 'background.jpg' with your actual background image */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .transparent-box {
+            background-color: rgba(255, 255, 255, 0.7); /* Adjust the last value (alpha) to control transparency */
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a subtle shadow for depth */
+        }
+
+        .content-inside-box {
+            /* Styles for content inside the transparent box */
+            color: #333;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="transparent-box">
+    <div class="content-inside-box">
+        <h1>Your Content Goes Here</h1>
+        <p>This is some non-transparent content inside the box.</p>
+        <!-- Add your other HTML content here -->
+    </div>
+</div>
+
+</body>
+</html>
